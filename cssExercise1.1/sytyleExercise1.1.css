@@ -1,0 +1,244 @@
+body {
+    background-image: url('../imageExercise1.1/cute\ cat-bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 1.1em;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    color: none;
+}
+
+a:active {
+    color: red;
+}
+
+
+/* a:hover{
+	color: #51f5b1;
+} */
+
+/* .searchMe {
+    float: right;
+    border: none;
+    border-radius: 20px;
+    height: 25px;
+}
+
+.meSearch {
+    float: right;
+    cursor: pointer;
+    padding-right: 5px;
+} */
+
+.clock {
+    position: fixed;
+    background-color: coral;
+    border-radius: 5px;
+    top: 11%;
+    right: 1%;
+    transform: translateX(1%) translateY(-50%);
+    float: right;
+    padding-right: 5px;
+    color: lightcyan;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 4px;
+    padding-left: 90%;
+
+}
+
+.container {
+    margin-top: 1%;
+    width: 85%;
+    overflow: hidden;
+}
+
+.videos {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#line {
+    border-top: 2px dashed red;
+}
+
+/* #main-navbar {
+    position: fixed;
+    left: 1px;
+    right: 1px;
+    background-color: #58f0e7;
+    opacity: 75%;
+}
+
+#main-navbar ul {
+    padding: 0;
+    list-style: none;
+}
+
+#main-navbar li {
+    display: inline;
+}
+
+#main-navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 30px;
+    transition: all 0.3s ease;
+}
+
+#main-navbar a:hover {
+    color: black;
+} */
+
+#column1 {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+#column1 h2 {
+    color: red;
+    text-decoration: underline;
+}
+
+#column2 {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+#column2 h2 {
+    color: red;
+    text-decoration: underline;
+}
+
+.dedicatedHosting {
+    color: red;
+}
+
+.domainVideos {
+    color: red;
+}
+
+#sub-navbar {
+    background-color: #7dd1be;
+    margin: 20px;
+    padding: 0px;
+}
+
+#sub-navbar ul {
+    padding: 0;
+    list-style: none;
+}
+
+#sub-navbar li {
+    display: inline;
+    padding-right: 1px;
+}
+
+#sub-navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    background-color: lightseagreen;
+    text-align: left;
+}
+
+#sub-navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    transition: all 0.5s ease;
+}
+
+#sub-navbar a:hover {
+    color: white;
+}
+
+a.no-underline {
+    text-decoration: none;
+}
+
+.newspaper {
+    background-color: coral;
+    float: left;
+    width: 20%;
+    height: 307px;
+    padding: 10px;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.newspaper a {
+    transition: all 0.5s ease;
+    text-decoration: none;
+}
+
+.newspaper a:hover {
+    color: white;
+}
+
+.newspaper h6 {
+    font-size: 15.9px;
+}
+
+.newspaper li {
+    font-size: 18px;
+    list-style: none;
+    color: black;
+}
+
+#main-footer {
+    text-align: center;
+    background: #52f9ef;
+    color: black;
+    box-sizing: border-box;
+    padding: 10px, 20px;
+    margin: 10px;
+}
+
+#main-footer p:hover {
+    color: white;
+    transition: all 0.1s ease;
+}
+
+.rakista {
+    padding-left: 600px;
+}
+
+
+/* .regis{
+	padding-left: 550px;
+} */
+
+@media(max-width: 600px) {
+    #main-navbar {
+        width: 100%;
+        float: none;
+    }
+
+    .container {
+        width: 100%;
+        float: none;
+    }
+
+    .newspaper {
+        width: 100%;
+        float: none;
+    }
+}
